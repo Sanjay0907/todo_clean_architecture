@@ -1,5 +1,10 @@
+import 'package:isar/isar.dart';
 import 'package:todo_bloc/domain/models/todo.dart';
 
+// To generate ISAR TODO Object,  run: run: dart run build_runner build
+part 'isar_todo.g.dart';
+
+@collection
 class TodoIsar {
   Id id = Isar.autoIncrement;
   late String text;

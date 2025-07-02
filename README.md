@@ -1,4 +1,4 @@
-# todo_bloc
+# Todo App (Clean Architecture, BloC, Isar Database)
 
 A new Flutter project.
 
